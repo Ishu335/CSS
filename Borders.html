@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borders in css</title>
+    <style>
+
+
+        /*
+            p.dotted {border-style: dotted;}
+            p.dashed {border-style: dashed;}
+            p.solid {border-style: solid;}
+            p.double {border-style: double;}
+            p.groove {border-style: groove;}
+            p.ridge {border-style: ridge;}
+            p.inset {border-style: inset;}
+            p.outset {border-style: outset;}
+            p.none {border-style: none;}
+            p.hidden {border-style: hidden;}
+            p.mix {border-style: dotted dashed solid double; */
+
+
+        /* The width can be set as a specific size (in px, pt, cm, em, etc) or by using one of the three pre-defined values: thin, medium, or thick: */
+        #fristpara{
+            color: purple;
+            /* background-color: black; */
+            border: 8px solid rgba(201, 13, 85, 0.664);
+            /* or  */
+            border: 4px dotted blue;
+            border-width : medium;
+           
+            }
+        #secondpara{
+                border: 3px  red;
+                border-width : thick;
+                border-radius: medium;
+                border-style: dotted;
+            }
+        #thirdpara{
+            border: 3px solid purple;
+            border-width: 10px 1px;  /* Set the width of the top and bottom borders to 10px, and the width of the left and right borders to 1px: */
+            border-style: dotted dashed solid double;
+            }
+        #fourpara{
+            border: rgb(208, 255, 0);
+            border-style: outset;
+            border-width: 25px 10px 4px 35px; /* 25px top, 10px right, 4px bottom and 35px left */
+            }
+        #fivepara{
+            border-top-style: solid;
+            border-left-style: solid;
+            border-right-style: solid ;
+            border-bottom-style:dotted;
+        }
+        #sixpara{
+            border-bottom: 5px dotted red;
+            background-color: lightgray;
+        }
+        #sevenpara{
+            border: 3px solid rgba(201, 13, 85, 0.664);
+            border-radius: 5px;/* this for a rounded coner  */
+        }
+
+    </style>
+</head>
+<body>
+   
+    <a href=" https://www.w3schools.com/cssref/pr_border-width.asp " >Click here for a Referance</a>
+    <h3>Borders</h3>
+    <div>
+        <p id="fristpara"> This a Frist para and a demo string withs a Frist para</p>
+    </div>
+
+    <div>
+        <p id="secondpara"> This a Frist para and a demo string with a Second para</p>
+    </div>
+    
+    <div>
+        <p id="thirdpara"> This a Frist para and a demo string wiht a Third para Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos consequuntur nulla perferendis.</p>
+    </div>
+
+    <div>
+        <p id="fourpara"> This a Frist para and a demo string wiht a Third para Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos consequuntur nulla perferendis.</p>
+    </div>
+
+    <div>
+        <p id="fivepara"> This a Frist para and a demo string wiht a Third para Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos consequuntur nulla perferendis.</p>
+    </div>
+
+    <div>
+        <p id="sixpara"> This a Frist para and a demo string wiht a Third para Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos consequuntur nulla perferendis.</p>
+    </div>
+
+    <div>
+        <p id="sevenpara"> This a Frist para and a demo string wiht a Third para Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos consequuntur nulla perferendis.</p>
+    </div>
+
+
+   
+</body>
+</html>

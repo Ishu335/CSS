@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Alignment</title>
+    <!--                    Text Alignment
+        The text-align property is used to set the horizontal alignment of a text.
+
+        A text can be left or right aligned, centered, or justified.
+
+        The following example shows center aligned, and left and right aligned text (left alignment is default if text direction is left-to-right, and right alignment is default if text direction is right-to-left):
+ -->
+    <style>
+        p.right{
+            text-align: right;
+        }
+        h4.left{
+            text-align: left;
+        }
+        div.center{
+            text-align: center;
+        }
+        samp.xl{
+            text-align: justify;
+            border:2px solid black;
+            border-width: 3px;
+            padding: 6px;
+        }
+    </style>
+</head>
+<body>
+    <p class="right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio alias ratione modi labore eum veritatis voluptatibus deleniti, incidunt ex numquam.</p>
+    <h4 class="left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, praesentium autem. </h4>
+    <br>
+    <div class="center">
+        <samp>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi rem exercitationem ad nemo amet asperiores explicabo qui eveniet tempore ab nam omnis modi natus, magnam neque, nobis praesentium ratione odit.</samp>
+    </div>
+    <div>
+        <samp class="xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam incidunt beatae debitis, itaque nesciunt voluptatum accusamus. Autem sed et possimus unde ducimus</samp>
+    </div>
+    <!--                            Text Direction
+        The direction and unicode-bidi properties can be used to change the text direction of an element:
+        The direction property specifies the text direction/writing direction within a block-level element
+
+                                        CSS Syntax
+        direction: ltr|rtl|initial|inherit; 
+                                        Property Values
+        Value	    Description	Play it
+        ltr    	    Text direction goes from left-to-right. This is default	
+        rtl	        Text direction goes from right-to-left	
+        initial	    Sets this property to its default value. Read about initial	
+        inherit	    Inherits this property from its parent element. Read about inherit
+    -->
+    <p style="direction: ltr;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, aut itaque molestiae, consequatur et reprehenderit quo, neque molestias cum beatae consectetur adipisci laudantium nisi? Dignissimos blanditiis ducimus sed numquam necessitatibus.</p>
+    <div>
+        <p style="direction: rtl;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, aut itaque molestiae, consequatur et reprehenderit quo, neque molestias cum beatae consectetur adipisci laudantium nisi? Dignissimos blanditiis ducimus sed numquam necessitatibus.</p>
+    </div>
+    <div>
+        <p style="direction: initial;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, aut itaque molestiae, consequatur et reprehenderit quo, neque molestias cum beatae consectetur adipisci laudantium nisi? Dignissimos blanditiis ducimus sed numquam necessitatibus.</p>
+    </div>
+    <div>
+        <p style="direction: inherit;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, aut itaque molestiae, consequatur et reprehenderit quo, neque molestias cum beatae consectetur adipisci laudantium nisi? Dignissimos blanditiis ducimus sed numquam necessitatibus.</p>
+    </div>
+</body>
+</html>

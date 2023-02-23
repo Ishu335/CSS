@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height and width CSS</title>
+    <style>
+        p{
+            border: 2px dashed red;
+            /* width: 19cm;
+            height: 40px;we cam used a px cm pt units  etc */
+            width: auto;
+            height: auto;/* we cam used a px cm pt units  etc */
+        }
+        span{
+                height: auto;
+                width: auto;  
+                border: 5px double red;
+            }
+            em{
+                border: 5px groove blue;
+                height: 40%;
+                width: 10%;
+            }
+            h4{
+                border: 5px outset blue;
+                height: initial;
+                width: initial;
+            }
+             /* div {
+                 width: auto;
+                 border: 15px solid green;
+                 padding: 50px;
+                 margin: 20px;
+                 height: auto;
+             } */
+             div {
+                 width: 300px;
+                 border: 15px solid green;
+                 padding: 50px;
+                 margin: 20px;
+              
+             }
+           
+    </style>
+</head>
+<body>
+    <!--    The height and width properties may have the following values:
+
+        auto    -     This is default. The browser calculates the height and width
+        length  -     Defines the height/width in px, cm etc.
+        %       -     Defines the height/width in percent of the containing block
+        initial -     Sets the height/width to its default value
+        inherit -     The height/width will be inherited from its parent value -->
+    <!--        
+                Property	Description
+
+        height	    Sets the height of an element
+        max-height	Sets the maximum height of an element
+        max-width	Sets the maximum width of an element
+        min-height	Sets the minimum height of an element
+        min-width	Sets the minimum width of an element
+        width	    Sets the width of an element 
+    -->
+    <!--    
+             The total width of an element should be calculated like this:
+
+    Total element width = width + left padding + right padding + left border + right border + left margin + right margin
+
+    The total height of an element should be calculated like this:
+
+    Total element height = height + top padding + bottom padding + top border + bottom border + top margin + bottom margin 
+    
+    -->
+    <h1>Height and width in Css
+    </h1>
+    <br>
+    <h2>Important: When you set the width and height properties of an element with CSS, you just set the width and height of the content area. To calculate the full size of an element, you must also add padding, borders and margins</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum corrupti illo ea sequi delectus magnam unde rem ducimus voluptate non.</p>
+    </div>
+    <br>
+    <div>
+        <span>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, officia. Vel non in sunt veniam deserunt cumque aspernatur odio repellat!
+        </span>
+    </div>
+    <br>
+    <div>
+        <em>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, modi quidem eius aliquam, enim qui ea sunt, maiores eveniet nam ratione adipisci nesciunt.</em>
+    </div>
+    <div>
+        <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, modi quidem eius aliquam, enim qui ea sunt, maiores eveniet nam ratione adipisci nesciunt.</h4>
+    </div>
+
+</body>
+</html>
